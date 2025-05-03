@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <h1>Image Gallery</h1>
+        
+        <div class="main-image-container">
+            <img id="main-image" src="" alt="Gallery Image">
+            <div class="image-counter">
+                <span id="current-image">1</span> / <span id="total-images">0</span>
+            </div>
+        </div>
+        
+        <div class="navigation">
+            <button id="prev-btn" class="nav-btn" disabled>Previous</button>
+            <button id="next-btn" class="nav-btn" disabled>Next</button>
+        </div>
+        
+        <div class="thumbnail-container">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
